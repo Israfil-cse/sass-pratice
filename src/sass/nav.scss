@@ -1,5 +1,6 @@
 @import './variable.scss';
 
+// nested css 
 .navber{
     width: 100%;
     height: 80px;
@@ -7,11 +8,15 @@
     display: flex;
     justify-content: end;
     align-items: center; 
+
+    span {
+        color: $hotPing;
+    }
 }
 
 .navber a {
     text-decoration: none;
-    color: $hotPing;
+    color: $whiteColor;
     padding: 20px;
     font-family: navFont;
     font-size: 22px;

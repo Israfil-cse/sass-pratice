@@ -1,0 +1,14 @@
+@import "./variable.scss";
+
+// nested css 
+.main_content{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+
+    h2{
+        color: $hotPing;
+    }
+}
+
+// function
