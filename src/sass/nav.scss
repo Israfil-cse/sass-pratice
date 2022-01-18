@@ -20,4 +20,8 @@
     padding: 20px;
     font-family: navFont;
     font-size: 22px;
+    &:hover{
+       background-color: $navHover;
+       border-radius: 10px;
+    }
 }
