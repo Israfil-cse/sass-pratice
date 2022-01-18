@@ -1,14 +1,21 @@
 @import "./variable.scss";
+@import "./function" ;
 
-// nested css 
-.main_content{
+
+// nested 
+.main_content {
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 
-    h2{
+    h2 {
         color: $hotPing;
     }
-}
 
-// function
+    // mixing 
+    // function
+    button {
+        @include btnStyle($hotPing, 18px);
+    }
+}
