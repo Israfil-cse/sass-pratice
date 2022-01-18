@@ -1,0 +1,30 @@
+@import "./variable.scss";
+
+.footer {
+    background-color: $navColor;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    &:after {
+        content: "copyright 2022 -israfil cse";
+        color: $blackColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+
+    }
+
+    // h2{
+    //     font-family: $titleFont;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+
+    // p{
+    //     text-align: center;
+    // }
+}
